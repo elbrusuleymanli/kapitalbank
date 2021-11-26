@@ -1,0 +1,213 @@
+%card {
+  .bank-card {
+    position: relative;
+    margin-bottom: 5rem;
+    &::after {
+      position: absolute;
+
+      left: -19px;
+      content: "";
+      height: 1px;
+      width: 100%;
+      background-color: rgb(223, 223, 223);
+    }
+
+    &::before {
+      content: ("");
+      display: block;
+      position: absolute;
+      background-color: #f9fafb;
+      height: 100%;
+      width: 100%;
+      top: 3.5rem;
+      bottom: 0;
+      left: -20px;
+      right: 0;
+      z-index: -1;
+      border-radius: 1rem;
+    }
+    .img-box {
+      a {
+        img {
+          max-width: 10rem;
+          margin: 0 0 20px 2px;
+          display: inline-block;
+        }
+      }
+    }
+    .card-text {
+      padding-top: 0.5rem;
+
+      a {
+        color: $primary-color;
+        font-size: 1.4rem;
+        font-weight: 400;
+      }
+      ul {
+        position: relative;
+        padding-left: 0.7rem;
+        padding-top: 0.5rem;
+        &:before {
+          display: block;
+          content: ("");
+          position: absolute;
+          width: 4px;
+          height: 4px;
+          border-radius: 100%;
+          background-color: $secondary-color;
+          bottom: 8px;
+          left: 0;
+        }
+        li {
+          font-size: 0.8rem;
+          &:before {
+            display: block;
+            content: ("");
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            border-radius: 100%;
+            background-color: $secondary-color;
+            top: 15px;
+            left: 0;
+          }
+        }
+      }
+    }
+    .card-order {
+      display: flex;
+      position: relative;
+
+      .make-order {
+        position: absolute;
+        left: -19px;
+        color: $secondary-color;
+        font-weight: 500;
+        padding: 1rem;
+        z-index: 3;
+        transition: 0.3s;
+        &:hover {
+          background-color: $secondary-color;
+          color: white;
+          border-radius: 0 0 0 1rem;
+          transition: 0.3s;
+        }
+      }
+      .more-info {
+        position: absolute;
+        left: 76px;
+        color: $primary-color;
+        flex: 1;
+        width: 320px;
+        padding: 1rem;
+        z-index: 8;
+        transition: 0.3s;
+        &:hover {
+          background-color: $secondary-color;
+          color: white;
+          border-radius: 0 0 1rem 0;
+          transition: 0.3s;
+        }
+      }
+    }
+  }
+}
+%card-unorder {
+  .bank-card {
+    position: relative;
+    margin-bottom: 5rem;
+    &::after {
+      position: absolute;
+
+      left: -19px;
+      content: "";
+      height: 1px;
+      width: 100%;
+      background-color: rgb(223, 223, 223);
+    }
+
+    &::before {
+      content: ("");
+      display: block;
+      position: absolute;
+      background-color: #f9fafb;
+      height: 100%;
+      width: 100%;
+      top: 3.5rem;
+      bottom: 0;
+      left: -20px;
+      right: 0;
+      z-index: -1;
+      border-radius: 1rem;
+    }
+    .img-box {
+      a {
+        img {
+          max-width: 10rem;
+          margin: 0 0 20px 2px;
+          display: inline-block;
+        }
+      }
+    }
+    .card-text {
+      padding-top: 0.5rem;
+
+      a {
+        color: $primary-color;
+        font-size: 1.4rem;
+        font-weight: 400;
+      }
+      ul {
+        position: relative;
+        padding-left: 0.7rem;
+        padding-top: 0.5rem;
+        &:before {
+          display: block;
+          content: ("");
+          position: absolute;
+          width: 4px;
+          height: 4px;
+          border-radius: 100%;
+          background-color: $secondary-color;
+          bottom: 8px;
+          left: 0;
+        }
+        li {
+          font-size: 0.8rem;
+          &:before {
+            display: block;
+            content: ("");
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            border-radius: 100%;
+            background-color: $secondary-color;
+            top: 15px;
+            left: 0;
+          }
+        }
+      }
+    }
+    .card-order {
+      display: flex;
+      position: relative;
+
+      .make-order {
+        position: absolute;
+        left: -19px;
+        width: 100%;
+        color: $primary-color;
+        font-weight: 400;
+        padding: 1rem;
+        z-index: 3;
+        transition: 0.3s;
+        &:hover {
+          background-color: $secondary-color;
+          color: white;
+          border-radius: 0 0 1rem 1rem;
+          transition: 0.3s;
+        }
+      }
+    }
+  }
+}

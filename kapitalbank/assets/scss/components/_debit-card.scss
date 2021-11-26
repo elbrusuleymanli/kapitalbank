@@ -1,0 +1,10 @@
+#debit-card {
+  @extend %card;
+
+  .unorder {
+    @extend %card-unorder;
+  }
+}
+h1 {
+  margin-bottom: 2rem;
+}

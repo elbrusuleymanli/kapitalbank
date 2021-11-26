@@ -1,0 +1,16 @@
+#digital-gift {
+  .digital-card {
+    h1 {
+      padding-bottom: 1rem;
+    }
+    @extend %card-unorder;
+  }
+  .gift-card {
+    h1 {
+      padding-bottom: 1rem;
+    }
+    @extend %card-unorder;
+  }
+
+
+}

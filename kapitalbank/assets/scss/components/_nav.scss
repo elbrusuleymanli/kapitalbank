@@ -1,0 +1,100 @@
+#nav {
+  .menu {
+    background-color: #e8ecf1;
+    line-height: 2.7rem;
+    text-align: center;
+    justify-content: space-between;
+
+    .menu-bar {
+      display: flex;
+      align-items: center;
+
+      .navmenu {
+        display: flex;
+        padding-top: 0.6rem;
+
+        ul {
+          display: flex;
+          font-size: 0.78rem;
+          padding: 0;
+          cursor: pointer;
+
+          li {
+            &:not(:first-child) {
+              padding-left: 1rem;
+            }
+            &:hover {
+              a::before {
+                opacity: 1;
+                visibility: visible;
+                transition: 0.2s;
+              }
+            }
+
+            a {
+              align-items: center;
+              color: $primary-color;
+              position: relative;
+
+              &::before {
+                content: ("");
+                display: block;
+                width: 100%;
+                height: 0.1rem;
+                background-color: $secondary-color;
+                position: absolute;
+                bottom: -30px;
+                opacity: 0;
+                visibility: hidden;
+                transition: 0.2s;
+              }
+            }
+          }
+        }
+      }
+    }
+    .birbank {
+      display: flex;
+
+      position: relative;
+      border: 1px solid $secondary-color;
+      color: white;
+      width: 100px;
+      height: 2rem;
+      border-radius: 10px;
+      margin-left: 90px;
+      background-color: $secondary-color;
+
+      align-items: center;
+      justify-content: center;
+
+      &:hover {
+        background-color: $helper-color;
+      }
+
+      &::before {
+        content: ("");
+        display: block;
+        position: absolute;
+        top: -5px;
+        right: 42px;
+        clip-path: polygon(41% 23%, 48% 11%, 48% 46%, 41% 57%);
+        background-color: white;
+        width: 75px;
+        height: 60px;
+      }
+      a {
+        color: white;
+        font-weight: 600;
+        margin-left: 10px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1200px) {
+
+.menu{
+  display: none;
+}
+
+}

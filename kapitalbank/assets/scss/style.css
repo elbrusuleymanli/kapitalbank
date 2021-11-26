@@ -1,0 +1,1622 @@
+#credit-card .bank-card, #debit-card .bank-card {
+  position: relative;
+  margin-bottom: 5rem;
+}
+
+#credit-card .bank-card::after, #debit-card .bank-card::after {
+  position: absolute;
+  left: -19px;
+  content: "";
+  height: 1px;
+  width: 100%;
+  background-color: #dfdfdf;
+}
+
+#credit-card .bank-card::before, #debit-card .bank-card::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: #f9fafb;
+  height: 100%;
+  width: 100%;
+  top: 3.5rem;
+  bottom: 0;
+  left: -20px;
+  right: 0;
+  z-index: -1;
+  border-radius: 1rem;
+}
+
+#credit-card .bank-card .img-box a img, #debit-card .bank-card .img-box a img {
+  max-width: 10rem;
+  margin: 0 0 20px 2px;
+  display: inline-block;
+}
+
+#credit-card .bank-card .card-text, #debit-card .bank-card .card-text {
+  padding-top: 0.5rem;
+}
+
+#credit-card .bank-card .card-text a, #debit-card .bank-card .card-text a {
+  color: #2e3131;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+#credit-card .bank-card .card-text ul, #debit-card .bank-card .card-text ul {
+  position: relative;
+  padding-left: 0.7rem;
+  padding-top: 0.5rem;
+}
+
+#credit-card .bank-card .card-text ul:before, #debit-card .bank-card .card-text ul:before {
+  display: block;
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 100%;
+  background-color: #f45369;
+  bottom: 8px;
+  left: 0;
+}
+
+#credit-card .bank-card .card-text ul li, #debit-card .bank-card .card-text ul li {
+  font-size: 0.8rem;
+}
+
+#credit-card .bank-card .card-text ul li:before, #debit-card .bank-card .card-text ul li:before {
+  display: block;
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 100%;
+  background-color: #f45369;
+  top: 15px;
+  left: 0;
+}
+
+#credit-card .bank-card .card-order, #debit-card .bank-card .card-order {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+#credit-card .bank-card .card-order .make-order, #debit-card .bank-card .card-order .make-order {
+  position: absolute;
+  left: -19px;
+  color: #f45369;
+  font-weight: 500;
+  padding: 1rem;
+  z-index: 3;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#credit-card .bank-card .card-order .make-order:hover, #debit-card .bank-card .card-order .make-order:hover {
+  background-color: #f45369;
+  color: white;
+  border-radius: 0 0 0 1rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#credit-card .bank-card .card-order .more-info, #debit-card .bank-card .card-order .more-info {
+  position: absolute;
+  left: 76px;
+  color: #2e3131;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: 320px;
+  padding: 1rem;
+  z-index: 8;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#credit-card .bank-card .card-order .more-info:hover, #debit-card .bank-card .card-order .more-info:hover {
+  background-color: #f45369;
+  color: white;
+  border-radius: 0 0 1rem 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#debit-card .unorder .bank-card, #digital-gift .digital-card .bank-card, #digital-gift .gift-card .bank-card {
+  position: relative;
+  margin-bottom: 5rem;
+}
+
+#debit-card .unorder .bank-card::after, #digital-gift .digital-card .bank-card::after, #digital-gift .gift-card .bank-card::after {
+  position: absolute;
+  left: -19px;
+  content: "";
+  height: 1px;
+  width: 100%;
+  background-color: #dfdfdf;
+}
+
+#debit-card .unorder .bank-card::before, #digital-gift .digital-card .bank-card::before, #digital-gift .gift-card .bank-card::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: #f9fafb;
+  height: 100%;
+  width: 100%;
+  top: 3.5rem;
+  bottom: 0;
+  left: -20px;
+  right: 0;
+  z-index: -1;
+  border-radius: 1rem;
+}
+
+#debit-card .unorder .bank-card .img-box a img, #digital-gift .digital-card .bank-card .img-box a img, #digital-gift .gift-card .bank-card .img-box a img {
+  max-width: 10rem;
+  margin: 0 0 20px 2px;
+  display: inline-block;
+}
+
+#debit-card .unorder .bank-card .card-text, #digital-gift .digital-card .bank-card .card-text, #digital-gift .gift-card .bank-card .card-text {
+  padding-top: 0.5rem;
+}
+
+#debit-card .unorder .bank-card .card-text a, #digital-gift .digital-card .bank-card .card-text a, #digital-gift .gift-card .bank-card .card-text a {
+  color: #2e3131;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+#debit-card .unorder .bank-card .card-text ul, #digital-gift .digital-card .bank-card .card-text ul, #digital-gift .gift-card .bank-card .card-text ul {
+  position: relative;
+  padding-left: 0.7rem;
+  padding-top: 0.5rem;
+}
+
+#debit-card .unorder .bank-card .card-text ul:before, #digital-gift .digital-card .bank-card .card-text ul:before, #digital-gift .gift-card .bank-card .card-text ul:before {
+  display: block;
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 100%;
+  background-color: #f45369;
+  bottom: 8px;
+  left: 0;
+}
+
+#debit-card .unorder .bank-card .card-text ul li, #digital-gift .digital-card .bank-card .card-text ul li, #digital-gift .gift-card .bank-card .card-text ul li {
+  font-size: 0.8rem;
+}
+
+#debit-card .unorder .bank-card .card-text ul li:before, #digital-gift .digital-card .bank-card .card-text ul li:before, #digital-gift .gift-card .bank-card .card-text ul li:before {
+  display: block;
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 100%;
+  background-color: #f45369;
+  top: 15px;
+  left: 0;
+}
+
+#debit-card .unorder .bank-card .card-order, #digital-gift .digital-card .bank-card .card-order, #digital-gift .gift-card .bank-card .card-order {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+#debit-card .unorder .bank-card .card-order .make-order, #digital-gift .digital-card .bank-card .card-order .make-order, #digital-gift .gift-card .bank-card .card-order .make-order {
+  position: absolute;
+  left: -19px;
+  width: 100%;
+  color: #2e3131;
+  font-weight: 400;
+  padding: 1rem;
+  z-index: 3;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#debit-card .unorder .bank-card .card-order .make-order:hover, #digital-gift .digital-card .bank-card .card-order .make-order:hover, #digital-gift .gift-card .bank-card .card-order .make-order:hover {
+  background-color: #f45369;
+  color: white;
+  border-radius: 0 0 1rem 1rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+p {
+  color: #2e3131;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+#header {
+  padding: 1.5rem 2rem;
+}
+
+#header .location ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#header .location ul li {
+  padding-left: .7rem;
+}
+
+#header .location ul li:first-child {
+  font-weight: 600;
+}
+
+#header .location ul li:nth-child(3) i {
+  color: #ef3e42;
+}
+
+#header .location ul li:nth-child(6) i {
+  border: 1px solid #ef3e42;
+  color: #ef3e42;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+  text-align: center;
+}
+
+#header .location ul li a {
+  color: #2e3131;
+  font-size: 0.9rem;
+}
+
+@media only screen and (max-width: 1400px) {
+  #header .row .logo {
+    padding: 2rem 0 2rem 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  #header .row .logo img {
+    width: 150%;
+  }
+  #header .row .location {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (max-width: 348px) {
+  #header .row .logo {
+    padding: 2rem 0 2rem 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 150%;
+  }
+  #header .row .logo img {
+    padding-left: 7rem;
+  }
+  #header .row .location {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (max-width: 220px) {
+  #header .row .logo {
+    padding: 2rem 0 2rem 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 300%;
+  }
+  #header .row .logo img {
+    padding-left: 5rem;
+  }
+  #header .row .location {
+    visibility: hidden;
+  }
+}
+
+#nav .menu {
+  background-color: #e8ecf1;
+  line-height: 2.7rem;
+  text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#nav .menu .menu-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#nav .menu .menu-bar .navmenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 0.6rem;
+}
+
+#nav .menu .menu-bar .navmenu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 0.78rem;
+  padding: 0;
+  cursor: pointer;
+}
+
+#nav .menu .menu-bar .navmenu ul li:not(:first-child) {
+  padding-left: 1rem;
+}
+
+#nav .menu .menu-bar .navmenu ul li:hover a::before {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+#nav .menu .menu-bar .navmenu ul li a {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #2e3131;
+  position: relative;
+}
+
+#nav .menu .menu-bar .navmenu ul li a::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 0.1rem;
+  background-color: #f45369;
+  position: absolute;
+  bottom: -30px;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+#nav .menu .birbank {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  border: 1px solid #f45369;
+  color: white;
+  width: 100px;
+  height: 2rem;
+  border-radius: 10px;
+  margin-left: 90px;
+  background-color: #f45369;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#nav .menu .birbank:hover {
+  background-color: #ef3e42;
+}
+
+#nav .menu .birbank::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -5px;
+  right: 42px;
+  -webkit-clip-path: polygon(41% 23%, 48% 11%, 48% 46%, 41% 57%);
+          clip-path: polygon(41% 23%, 48% 11%, 48% 46%, 41% 57%);
+  background-color: white;
+  width: 75px;
+  height: 60px;
+}
+
+#nav .menu .birbank a {
+  color: white;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .menu {
+    display: none;
+  }
+}
+
+#cards .card-topic {
+  padding-top: 1rem;
+}
+
+#cards .card-topic h1 {
+  font-size: 3rem;
+}
+
+#cards .card-topic p {
+  max-width: 785px;
+  opacity: 0.7;
+  font-size: 0.9rem;
+}
+
+#cards .card-title {
+  padding: 1rem 0 2rem 0;
+}
+
+#cards .card-title ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+}
+
+#cards .card-title ul li {
+  padding-right: 1rem;
+}
+
+#cards .card-title ul li:first-child a {
+  background-color: #f45369;
+  color: white;
+}
+
+#cards .card-title ul li a {
+  padding: 0.5rem 1.5rem 0.6rem;
+  background-color: #e8ecf1;
+  color: #2e3131;
+  border-radius: 2.5rem;
+}
+
+#cards .bg-popular {
+  padding: 4.5rem 1.3rem 4.2rem 3.5rem;
+  background-color: #f9fafb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 1rem;
+  border: 1px solid #eaeaea;
+}
+
+#cards .bg-popular a img {
+  max-width: 100%;
+}
+
+#cards .bg-popular .cashback {
+  margin-left: 4rem;
+}
+
+#cards .bg-popular .cashback .image {
+  color: #ff0023;
+  font-weight: 600;
+  font-size: 1.05rem;
+  margin-top: -3.5rem;
+  margin-bottom: 2rem;
+}
+
+#cards .bg-popular .cashback .bircart h1 {
+  padding-bottom: 2rem;
+  font-size: 2rem;
+}
+
+#cards .bg-popular .cashback .bircart .campaing ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0;
+}
+
+#cards .bg-popular .cashback .bircart .campaing ul li:not(:first-child) {
+  margin-left: 12%;
+}
+
+#cards .bg-popular .cashback .bircart .campaing ul li span {
+  display: block;
+  font-size: 1.2rem;
+  padding-bottom: 0.5rem;
+}
+
+#cards .bg-popular .cashback .bircart .cashback-button {
+  padding-top: 3rem;
+}
+
+#cards .bg-popular .cashback .bircart .cashback-button .order {
+  padding: 0.9rem 6.7rem 1rem;
+  background-color: #f45369;
+  color: white;
+  font-size: 1.3rem;
+  border-radius: 0.7rem;
+  font-weight: 600;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+#cards .bg-popular .cashback .bircart .cashback-button .order:hover {
+  background-color: #ef3e42;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+#cards .bg-popular .cashback .bircart .cashback-button .more {
+  color: #2e3131;
+  padding-left: 2rem;
+  font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 992px) {
+  body {
+    overflow-x: hidden;
+  }
+  #cards .card-topic {
+    padding-top: 0;
+  }
+  #cards .card-topic h1 {
+    font-size: 5rem;
+  }
+  #cards .card-topic p {
+    max-width: 700px;
+    opacity: 0.7;
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .card-title {
+    padding: 1rem 0 2rem 0;
+  }
+  .card-title ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+  }
+  .card-title ul li {
+    padding-right: 1rem;
+  }
+  .card-title ul li:first-child a {
+    background-color: #f45369;
+    color: white;
+  }
+  .card-title ul li a {
+    padding: 0.5rem 1.5rem 0.6rem;
+    background-color: #e8ecf1;
+    color: #2e3131;
+    border-radius: 2.5rem;
+  }
+  .bg-popular {
+    padding: 4.5rem 1.3rem 4.2rem 3.5rem;
+    background-color: #f9fafb;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 1rem;
+    border: 1px solid #eaeaea;
+  }
+  .bg-popular a img {
+    max-width: 100%;
+  }
+  .bg-popular .cashback {
+    margin-left: 4rem;
+  }
+  .bg-popular .cashback .image {
+    color: #ff0023;
+    font-weight: 600;
+    font-size: 1.05rem;
+    margin-top: -3.5rem;
+    margin-bottom: 2rem;
+  }
+  .bg-popular .cashback .bircart h1 {
+    padding-bottom: 2rem;
+    font-size: 2rem;
+  }
+  .bg-popular .cashback .bircart .campaing ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0;
+  }
+  .bg-popular .cashback .bircart .campaing ul li:not(:first-child) {
+    margin-left: 12%;
+  }
+  .bg-popular .cashback .bircart .campaing ul li span {
+    display: block;
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+  }
+  .bg-popular .cashback .bircart .cashback-button {
+    padding-top: 3rem;
+    margin-left: -24.5rem;
+  }
+  .bg-popular .cashback .bircart .cashback-button .order {
+    padding: 0.9rem 6.7rem 1rem;
+    background-color: #f45369;
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 0.7rem;
+    font-weight: 600;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+  }
+  .bg-popular .cashback .bircart .cashback-button .order:hover {
+    background-color: #ef3e42;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+  }
+  .bg-popular .cashback .bircart .cashback-button .more {
+    color: #2e3131;
+    padding-left: 2rem;
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 764px) {
+  .card-title {
+    padding: 1rem 0 2rem 0;
+  }
+  .card-title ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+  }
+  .card-title ul li {
+    padding-right: 1rem;
+  }
+  .card-title ul li:first-child a {
+    background-color: #f45369;
+    color: white;
+  }
+  .card-title ul li a {
+    padding: 0.5rem 1.5rem 0.6rem;
+    background-color: #e8ecf1;
+    color: #2e3131;
+    border-radius: 2.5rem;
+  }
+  .bg-popular {
+    padding: 4.5rem 1.3rem 4.2rem 3.5rem;
+    background-color: #f9fafb;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 1rem;
+    border: 1px solid #eaeaea;
+  }
+  .bg-popular a img {
+    max-width: 100%;
+  }
+  .bg-popular .cashback .image {
+    color: #ff0023;
+    font-weight: 600;
+    font-size: 1.05rem;
+    margin-top: -3.5rem;
+    margin-bottom: 2rem;
+  }
+  .bg-popular .cashback .bircart h1 {
+    padding-bottom: 2rem;
+    font-size: 2rem;
+  }
+  .bg-popular .cashback .bircart .campaing ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 4rem;
+  }
+  .bg-popular .cashback .bircart .campaing ul li span {
+    display: block;
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+  }
+  .bg-popular .cashback .bircart .cashback-button {
+    padding-top: 3rem;
+    margin-left: -16rem;
+  }
+  .bg-popular .cashback .bircart .cashback-button .order {
+    background-color: #f45369;
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 0.7rem;
+    font-weight: 600;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    display: block;
+    width: 60%;
+  }
+  .bg-popular .cashback .bircart .cashback-button .order:hover {
+    background-color: #ef3e42;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+  }
+  .bg-popular .cashback .bircart .cashback-button .more {
+    color: #2e3131;
+    margin: 4rem;
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 566px) {
+  .card-title {
+    padding: 1rem 0 2rem 0;
+    display: none;
+  }
+  .card-title ul {
+    padding: 0;
+  }
+  .card-title ul li {
+    padding-right: 1rem;
+  }
+  .card-title ul li:first-child a {
+    background-color: #f45369;
+    color: white;
+  }
+  .card-title ul li a {
+    padding: 0.5rem 1.5rem 0.6rem;
+    background-color: #e8ecf1;
+    color: #2e3131;
+    border-radius: 2.5rem;
+  }
+  .bg-popular {
+    margin-left: 1rem;
+    background-color: #f9fafb;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-radius: 1rem;
+    border: 1px solid #eaeaea;
+  }
+  .bg-popular a img {
+    max-width: 100%;
+  }
+  .bg-popular .cashback .image {
+    color: #ff0023;
+    font-weight: 600;
+    font-size: 1.05rem;
+    margin-top: -3.5rem;
+    margin-bottom: 2rem;
+  }
+  .bg-popular .cashback .bircart h1 {
+    padding-bottom: 2rem;
+    font-size: 2rem;
+  }
+  .bg-popular .cashback .bircart .campaing ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 4rem;
+  }
+  .bg-popular .cashback .bircart .campaing ul li span {
+    display: block;
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+  }
+  .bg-popular .cashback .bircart .cashback-button {
+    padding-top: 3rem;
+    margin-left: -16rem;
+  }
+  .bg-popular .cashback .bircart .cashback-button .order {
+    background-color: #f45369;
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 0.7rem;
+    font-weight: 600;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    display: block;
+    width: 60%;
+  }
+  .bg-popular .cashback .bircart .cashback-button .order:hover {
+    background-color: #ef3e42;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+  }
+  .bg-popular .cashback .bircart .cashback-button .more {
+    color: #2e3131;
+    margin: 4rem;
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 536px) {
+  #cards .card-topic {
+    padding-top: 0;
+  }
+  #cards .card-topic h1 {
+    font-size: 5rem;
+    text-align: center;
+    margin-top: -5rem;
+  }
+  #cards .card-topic p {
+    max-width: 700px;
+    opacity: 0.7;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-left: 3rem;
+  }
+}
+
+@media only screen and (max-width: 526px) {
+  #cards .card-topic p {
+    max-width: 800px;
+    opacity: 0.7;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-left: 1rem;
+  }
+  #cards .card-title {
+    padding: 1rem 0 2rem 0;
+  }
+  #cards .card-title ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+  }
+  #cards .card-title ul li {
+    padding-right: 1rem;
+  }
+  #cards .card-title ul li:first-child a {
+    background-color: #f45369;
+    color: white;
+  }
+  #cards .card-title ul li a {
+    padding: 0.5rem 1.5rem 0.6rem;
+    background-color: #e8ecf1;
+    color: #2e3131;
+    border-radius: 2.5rem;
+  }
+  #cards .bg-popular {
+    margin-left: 1rem;
+    background-color: #f9fafb;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-radius: 1rem;
+    border: 1px solid #eaeaea;
+  }
+  #cards .bg-popular a img {
+    max-width: 100%;
+  }
+  #cards .bg-popular .cashback .image {
+    color: #ff0023;
+    font-weight: 600;
+    font-size: 1.05rem;
+    margin-top: -3.5rem;
+    margin-bottom: 2rem;
+  }
+  #cards .bg-popular .cashback .bircart h1 {
+    padding-bottom: 2rem;
+    font-size: 2rem;
+  }
+  #cards .bg-popular .cashback .bircart .campaing ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 4rem;
+  }
+  #cards .bg-popular .cashback .bircart .campaing ul li span {
+    display: block;
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+  }
+  #cards .bg-popular .cashback .bircart .cashback-button {
+    padding-top: 3rem;
+    margin-left: -10rem;
+  }
+  #cards .bg-popular .cashback .bircart .cashback-button .order {
+    background-color: #f45369;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 0.7rem;
+    font-weight: 600;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    display: block;
+    width: 80%;
+    text-align: center;
+  }
+  #cards .bg-popular .cashback .bircart .cashback-button .order:hover {
+    background-color: #ef3e42;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+  }
+  #cards .bg-popular .cashback .bircart .cashback-button .more {
+    color: #2e3131;
+    margin: 5rem;
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  #cards .card-topic p {
+    max-width: 800px;
+    opacity: 0.7;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-left: 2rem;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  #cards .card-topic p {
+    max-width: 800px;
+    opacity: 0.7;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-left: 1rem;
+  }
+  #cards .card-title {
+    padding: 1rem 0 2rem 0;
+  }
+  #cards .card-title ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+  }
+  #cards .card-title ul li {
+    padding-right: 1rem;
+  }
+  #cards .card-title ul li:first-child a {
+    background-color: #f45369;
+    color: white;
+  }
+  #cards .card-title ul li a {
+    padding: 0.5rem 1.5rem 0.6rem;
+    background-color: #e8ecf1;
+    color: #2e3131;
+    border-radius: 2.5rem;
+  }
+  #cards .bg-popular {
+    margin-left: 0;
+    background-color: #f9fafb;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-radius: 1rem;
+    border: 1px solid #eaeaea;
+  }
+  #cards .bg-popular a img {
+    max-width: 100%;
+  }
+  #cards .bg-popular .cashback .image {
+    color: #ff0023;
+    font-weight: 600;
+    font-size: 1.05rem;
+    margin-top: -3.5rem;
+    margin-bottom: 2rem;
+  }
+  #cards .bg-popular .cashback .bircart h1 {
+    padding-bottom: 2rem;
+    font-size: 2rem;
+  }
+  #cards .bg-popular .cashback .bircart .campaing ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 4rem;
+  }
+  #cards .bg-popular .cashback .bircart .campaing ul li span {
+    display: block;
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+  }
+  #cards .bg-popular .cashback .bircart .cashback-button {
+    padding-top: 3rem;
+    margin-left: -10rem;
+  }
+  #cards .bg-popular .cashback .bircart .cashback-button .order {
+    background-color: #f45369;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 0.7rem;
+    font-weight: 600;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    display: block;
+    width: 80%;
+    text-align: center;
+  }
+  #cards .bg-popular .cashback .bircart .cashback-button .order:hover {
+    background-color: #ef3e42;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+  }
+  #cards .bg-popular .cashback .bircart .cashback-button .more {
+    color: #2e3131;
+    margin: 5rem;
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 474px) {
+  #cards .card-topic {
+    padding-top: 0;
+    text-align: center;
+  }
+  #cards .card-topic h1 {
+    font-size: 5rem;
+    text-align: center;
+    margin-top: -6rem;
+  }
+  #cards .card-topic p {
+    opacity: 0.7;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  #cards .card-topic {
+    text-align: center;
+  }
+  #cards .card-topic h1 {
+    font-size: 5rem;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: -6rem;
+  }
+  #cards .card-topic p {
+    opacity: 0.7;
+    font-size: 1.5rem;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #cards .card-title {
+    padding: 1rem 0 2rem 0;
+  }
+  #cards .card-title ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+  }
+  #cards .card-title ul li {
+    padding-right: 1rem;
+  }
+  #cards .card-title ul li:first-child a {
+    background-color: #f45369;
+    color: white;
+  }
+  #cards .card-title ul li a {
+    padding: 0.5rem 1.5rem 0.6rem;
+    background-color: #e8ecf1;
+    color: #2e3131;
+    border-radius: 2.5rem;
+  }
+  #cards .bg-popular {
+    margin-left: 0;
+    background-color: #f9fafb;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-radius: 1rem;
+    border: 1px solid #eaeaea;
+  }
+  #cards .bg-popular a img {
+    max-width: 100%;
+  }
+  #cards .bg-popular .cashback .image {
+    color: #ff0023;
+    font-weight: 600;
+    font-size: 1.05rem;
+    margin-top: -3.5rem;
+    margin-bottom: 2rem;
+  }
+  #cards .bg-popular .cashback .bircart h1 {
+    padding-bottom: 2rem;
+    font-size: 2rem;
+  }
+  #cards .bg-popular .cashback .bircart .campaing ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 4rem;
+  }
+  #cards .bg-popular .cashback .bircart .campaing ul li span {
+    display: block;
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+  }
+  #cards .bg-popular .cashback .bircart .cashback-button {
+    padding-top: 3rem;
+    margin-left: -10rem;
+  }
+  #cards .bg-popular .cashback .bircart .cashback-button .order {
+    background-color: #f45369;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 0.7rem;
+    font-weight: 600;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    display: block;
+    width: 80%;
+    text-align: center;
+  }
+  #cards .bg-popular .cashback .bircart .cashback-button .order:hover {
+    background-color: #ef3e42;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+  }
+  #cards .bg-popular .cashback .bircart .cashback-button .more {
+    color: #2e3131;
+    margin: 5rem;
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 436px) {
+  #cards .card-topic {
+    text-align: center;
+  }
+  #cards .card-topic h1 {
+    font-size: 5rem;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: -6rem;
+  }
+  #cards .card-topic p {
+    opacity: 0.7;
+    font-size: 1.5rem;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #cards .card-title {
+    padding: 1rem 0 2rem 0;
+  }
+  #cards .card-title ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+  }
+  #cards .card-title ul li {
+    padding-right: 1rem;
+  }
+  #cards .card-title ul li:first-child a {
+    background-color: #f45369;
+    color: white;
+  }
+  #cards .card-title ul li a {
+    padding: 0.5rem 1.5rem 0.6rem;
+    background-color: #e8ecf1;
+    color: #2e3131;
+    border-radius: 2.5rem;
+  }
+  #cards .bg-popular {
+    margin-left: 0;
+    background-color: #f9fafb;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-radius: 1rem;
+    border: 1px solid #eaeaea;
+  }
+  #cards .bg-popular a img {
+    max-width: 200%;
+  }
+  #cards .bg-popular .cashback .image {
+    color: #ff0023;
+    font-weight: 600;
+    font-size: 1.05rem;
+    margin-top: -3.5rem;
+    margin-bottom: 2rem;
+  }
+  #cards .bg-popular .cashback .bircart h1 {
+    padding-bottom: 2rem;
+    font-size: 2rem;
+  }
+  #cards .bg-popular .cashback .bircart .campaing ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 4rem;
+  }
+  #cards .bg-popular .cashback .bircart .campaing ul li span {
+    display: block;
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+  }
+  #cards .bg-popular .cashback .bircart .cashback-button {
+    padding-top: 3rem;
+    margin-left: -7rem;
+  }
+  #cards .bg-popular .cashback .bircart .cashback-button .order {
+    background-color: #f45369;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 0.7rem;
+    font-weight: 600;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    display: block;
+    width: 85%;
+    text-align: center;
+    margin-left: 0;
+  }
+  #cards .bg-popular .cashback .bircart .cashback-button .order:hover {
+    background-color: #ef3e42;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+  }
+  #cards .bg-popular .cashback .bircart .cashback-button .more {
+    color: #2e3131;
+    margin: 5rem;
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 396px) {
+  #cards .card-topic {
+    text-align: center;
+  }
+  #cards .card-topic h1 {
+    font-size: 5rem;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: -6rem;
+  }
+  #cards .card-topic p {
+    opacity: 0.7;
+    font-size: 1.5rem;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #cards .card-title {
+    padding: 1rem 0 2rem 0;
+  }
+  #cards .card-title ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+  }
+  #cards .card-title ul li {
+    padding-right: 1rem;
+  }
+  #cards .card-title ul li:first-child a {
+    background-color: #f45369;
+    color: white;
+  }
+  #cards .card-title ul li a {
+    padding: 0.5rem 1.5rem 0.6rem;
+    background-color: #e8ecf1;
+    color: #2e3131;
+    border-radius: 2.5rem;
+  }
+  #cards .bg-popular {
+    margin-left: 0;
+    background-color: #f9fafb;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-radius: 1rem;
+    border: 1px solid #eaeaea;
+  }
+  #cards .bg-popular a img {
+    max-width: 900%;
+  }
+  #cards .bg-popular .cashback .image {
+    color: #ff0023;
+    font-weight: 600;
+    font-size: 1.05rem;
+    margin-top: -3.5rem;
+    margin-bottom: 2rem;
+  }
+  #cards .bg-popular .cashback .bircart h1 {
+    padding-bottom: 2rem;
+    font-size: 2rem;
+  }
+  #cards .bg-popular .cashback .bircart .campaing ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 4rem;
+  }
+  #cards .bg-popular .cashback .bircart .campaing ul li span {
+    display: block;
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+  }
+  #cards .bg-popular .cashback .bircart .cashback-button {
+    padding-top: 3rem;
+    margin-left: -6rem;
+  }
+  #cards .bg-popular .cashback .bircart .cashback-button .order {
+    background-color: #f45369;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 0.7rem;
+    font-weight: 600;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    width: 85%;
+    text-align: center;
+    margin-left: 0;
+  }
+  #cards .bg-popular .cashback .bircart .cashback-button .order:hover {
+    background-color: #ef3e42;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+  }
+  #cards .bg-popular .cashback .bircart .cashback-button .more {
+    color: #2e3131;
+    margin: 5rem;
+    font-size: 1.1rem;
+  }
+}
+
+#credit-card {
+  padding-top: 2.5rem;
+}
+
+#credit-card h1 {
+  padding-bottom: 1.5rem;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+#digital-gift .digital-card h1 {
+  padding-bottom: 1rem;
+}
+
+#digital-gift .gift-card h1 {
+  padding-bottom: 1rem;
+}
+
+#card-option {
+  margin-top: 2rem;
+}
+
+#card-option .options {
+  background-color: #f9fafb;
+}
+
+#card-option .options .card-row ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem 0 2rem 0;
+  margin-bottom: 0;
+}
+
+#card-option .options .card-row ul li {
+  font-size: .9rem;
+  text-align: center;
+}
+
+#card-option .options .card-row ul li:first-child a {
+  color: #ef3e42;
+  font-weight: 500;
+}
+
+#card-option .options .card-row ul li a {
+  color: #2e3131;
+}
+
+#main-footer .footer-options {
+  background-color: #2e3131;
+  padding-top: 2rem;
+}
+
+#main-footer .footer-options .options ul {
+  color: white;
+  padding-left: 0;
+}
+
+#main-footer .footer-options .options ul li {
+  font-size: 0.9rem;
+  line-height: 2rem;
+}
+
+#main-footer .footer-options .options ul li:first-child {
+  font-weight: 600;
+}
+
+#main-footer .footer-options .options ul li a {
+  color: white;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+#main-footer .footer-options .options ul li a:hover {
+  color: #ef3e42;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+#main-footer .footer-options .options .app .sosial-app .app-items a {
+  background: #f45369;
+  padding: 10px 15px;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  font-family: SourceSansProRegular;
+  margin-bottom: 24px;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+  width: 45%;
+  margin-left: 7rem;
+}
+
+#main-footer .footer-options .options .app .sosial-app .app-items a:hover {
+  background-color: #ef3e42;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+#main-footer .footer-options .options .app .sosial-app .app-items a span {
+  margin-right: 10px;
+  height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#main-footer .footer-options .options .app .sosial-app .app-items a .app-text p {
+  font-size: 14px;
+  margin-bottom: 0;
+  color: white;
+}
+
+#main-footer .footer-options .options .app .sosial-app .app-items a .app-text p span {
+  display: block;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+#main-footer .footer-options .sosial-media {
+  padding-top: 1rem;
+}
+
+#main-footer .footer-options .sosial-media ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 0;
+}
+
+#main-footer .footer-options .sosial-media ul li {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#main-footer .footer-options .sosial-media ul li:first-child {
+  border: 1px solid #f45369;
+  border-radius: 5px;
+  padding: .3rem 1rem;
+  text-align: center;
+}
+
+#main-footer .footer-options .sosial-media ul li:first-child i {
+  color: #ef3e42;
+}
+
+#main-footer .footer-options .sosial-media ul li a {
+  color: white;
+}
+
+#main-footer .footer-options .sosial-media ul li a:hover {
+  color: #ef3e42;
+}
+
+#main-footer .footer-options .sosial-media ul li a span {
+  font-weight: 700;
+}
+
+#main-footer .footer-options .line {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+#main-footer .footer-options .line p {
+  width: 100%;
+  height: 1px;
+  background-color: #4a4a4a;
+}
+
+#main-footer .footer-options .footer-partner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 1rem;
+}
+
+#main-footer .footer-options .footer-partner .footer-text p {
+  color: white;
+}
+
+#main-footer .footer-options .footer-partner .partner img {
+  padding-right: 1.2rem;
+}
+/*# sourceMappingURL=style.css.map */

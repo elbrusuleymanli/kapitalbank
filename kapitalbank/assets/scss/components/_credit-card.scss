@@ -1,0 +1,8 @@
+#credit-card {
+  padding-top: 2.5rem;
+
+  h1 {
+    padding-bottom: 1.5rem;
+  }
+  @extend %card;
+}

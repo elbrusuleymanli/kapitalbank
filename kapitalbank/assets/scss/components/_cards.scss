@@ -1,0 +1,1069 @@
+#cards {
+  .card-topic {
+    padding-top: 1rem;
+    h1 {
+      font-size: 3rem;
+    }
+    p {
+      max-width: 785px;
+      opacity: 0.7;
+      font-size: 0.9rem;
+    }
+  }
+  .card-title {
+    padding: 1rem 0 2rem 0;
+    ul {
+      display: flex;
+      padding: 0;
+
+      li {
+        padding-right: 1rem;
+
+        &:first-child {
+          a {
+            background-color: $secondary-color;
+            color: white;
+          }
+        }
+        a {
+          padding: 0.5rem 1.5rem 0.6rem;
+          background-color: #e8ecf1;
+          color: $primary-color;
+          border-radius: 2.5rem;
+        }
+      }
+    }
+  }
+  .bg-popular {
+    padding: 4.5rem 1.3rem 4.2rem 3.5rem;
+    background-color: #f9fafb;
+    display: flex;
+    border-radius: 1rem;
+    border: 1px solid #eaeaea;
+
+    a {
+      img {
+        max-width: 100%;
+      }
+    }
+    .cashback {
+      margin-left: 4rem;
+      .image {
+        color: #ff0023;
+        font-weight: 600;
+        font-size: 1.05rem;
+        margin-top: -3.5rem;
+        margin-bottom: 2rem;
+      }
+
+      .bircart {
+        h1 {
+          padding-bottom: 2rem;
+          font-size: 2rem;
+        }
+        .campaing {
+          ul {
+            display: flex;
+            padding-left: 0;
+            li {
+              &:not(:first-child) {
+                margin-left: 12%;
+              }
+
+              span {
+                display: block;
+                font-size: 1.2rem;
+                padding-bottom: 0.5rem;
+              }
+            }
+          }
+        }
+        .cashback-button {
+          padding-top: 3rem;
+          .order {
+            padding: 0.9rem 6.7rem 1rem;
+            background-color: $secondary-color;
+            color: white;
+            font-size: 1.3rem;
+            border-radius: 0.7rem;
+            font-weight: 600;
+            transition: 0.2s;
+
+            &:hover {
+              background-color: $helper-color;
+              transition: 0.2s;
+            }
+          }
+          .more {
+            color: $primary-color;
+            padding-left: 2rem;
+            font-size: 1.1rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+ body{
+   overflow-x: hidden;
+ }
+ 
+  #cards {
+    .card-topic {
+      padding-top: 0;
+      h1 {
+        font-size: 5rem;
+      }
+      p {
+        max-width: 700px;
+        opacity: 0.7;
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 990px) {
+  .card-title {
+    padding: 1rem 0 2rem 0;
+    ul {
+      display: flex;
+      padding: 0;
+
+      li {
+        padding-right: 1rem;
+
+        &:first-child {
+          a {
+            background-color: $secondary-color;
+            color: white;
+          }
+        }
+        a {
+          padding: 0.5rem 1.5rem 0.6rem;
+          background-color: #e8ecf1;
+          color: $primary-color;
+          border-radius: 2.5rem;
+        }
+      }
+    }
+  }
+  .bg-popular {
+    padding: 4.5rem 1.3rem 4.2rem 3.5rem;
+    background-color: #f9fafb;
+    display: flex;
+    border-radius: 1rem;
+    border: 1px solid #eaeaea;
+
+    a {
+      img {
+        max-width: 100%;
+      }
+    }
+    .cashback {
+      margin-left: 4rem;
+      .image {
+        color: #ff0023;
+        font-weight: 600;
+        font-size: 1.05rem;
+        margin-top: -3.5rem;
+        margin-bottom: 2rem;
+      }
+
+      .bircart {
+        h1 {
+          padding-bottom: 2rem;
+          font-size: 2rem;
+        }
+        .campaing {
+          ul {
+            display: flex;
+            padding-left: 0;
+            li {
+              &:not(:first-child) {
+                margin-left: 12%;
+              }
+
+              span {
+                display: block;
+                font-size: 1.2rem;
+                padding-bottom: 0.5rem;
+              }
+            }
+          }
+        }
+        .cashback-button {
+          padding-top: 3rem;
+          margin-left: -24.5rem;
+          .order {
+            padding: 0.9rem 6.7rem 1rem;
+            background-color: $secondary-color;
+            color: white;
+            font-size: 1.3rem;
+            border-radius: 0.7rem;
+            font-weight: 600;
+            transition: 0.2s;
+
+            &:hover {
+              background-color: $helper-color;
+              transition: 0.2s;
+            }
+          }
+          .more {
+            color: $primary-color;
+            padding-left: 2rem;
+            font-size: 1.1rem;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 764px) {
+  .card-title {
+    padding: 1rem 0 2rem 0;
+    ul {
+      display: flex;
+      padding: 0;
+
+      li {
+        padding-right: 1rem;
+
+        &:first-child {
+          a {
+            background-color: $secondary-color;
+            color: white;
+          }
+        }
+        a {
+          padding: 0.5rem 1.5rem 0.6rem;
+          background-color: #e8ecf1;
+          color: $primary-color;
+          border-radius: 2.5rem;
+        }
+      }
+    }
+  }
+  .bg-popular {
+    padding: 4.5rem 1.3rem 4.2rem 3.5rem;
+    background-color: #f9fafb;
+    display: flex;
+    border-radius: 1rem;
+    border: 1px solid #eaeaea;
+
+    a {
+      img {
+        max-width: 100%;
+      }
+    }
+    .cashback {
+      
+      .image {
+        color: #ff0023;
+        font-weight: 600;
+        font-size: 1.05rem;
+        margin-top: -3.5rem;
+        margin-bottom: 2rem;
+      }
+
+      .bircart {
+        h1 {
+          padding-bottom: 2rem;
+          font-size: 2rem;
+        }
+        .campaing {
+          ul {
+            display: flex;
+             margin-right: 4rem;
+            li {
+           
+
+              span {
+                display: block;
+                font-size: 1.2rem;
+                padding-bottom: 0.5rem;
+              }
+            }
+          }
+        }
+        .cashback-button {
+          padding-top: 3rem;
+          margin-left: -16rem;
+          
+          .order {
+            
+            background-color: $secondary-color;
+            color: white;
+            font-size: 1.3rem;
+            border-radius: 0.7rem;
+            font-weight: 600;
+            transition: 0.2s;
+            display: block;
+            width: 60%;
+
+            &:hover {
+              background-color: $helper-color;
+              transition: 0.2s;
+            }
+          }
+          .more {
+            color: $primary-color;
+            margin: 4rem;
+            font-size: 1.1rem;
+            
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 566px) {
+  .card-title {
+    padding: 1rem 0 2rem 0;display: none;
+    ul {
+      
+      padding: 0;
+
+      li {
+        padding-right: 1rem;
+
+        &:first-child {
+          a {
+            background-color: $secondary-color;
+            color: white;
+          }
+        }
+        a {
+          padding: 0.5rem 1.5rem 0.6rem;
+          background-color: #e8ecf1;
+          color: $primary-color;
+          border-radius: 2.5rem;
+        }
+      }
+    }
+  }
+  .bg-popular {
+    margin-left: 1rem;
+    background-color: #f9fafb;
+    display: flex;
+    justify-content: center;
+    
+    border-radius: 1rem;
+    border: 1px solid #eaeaea;
+
+    a {
+      img {
+        max-width: 100%;
+      }
+    }
+    .cashback {
+      
+      .image {
+        color: #ff0023;
+        font-weight: 600;
+        font-size: 1.05rem;
+        margin-top: -3.5rem;
+        margin-bottom: 2rem;
+      }
+
+      .bircart {
+        h1 {
+          padding-bottom: 2rem;
+          font-size: 2rem;
+        }
+        .campaing {
+          ul {
+            display: flex;
+             margin-right: 4rem;
+            li {
+           
+
+              span {
+                display: block;
+                font-size: 1.2rem;
+                padding-bottom: 0.5rem;
+              }
+            }
+          }
+        }
+        .cashback-button {
+          padding-top: 3rem;
+          margin-left: -16rem;
+          
+          .order {
+            
+            background-color: $secondary-color;
+            color: white;
+            font-size: 1.3rem;
+            border-radius: 0.7rem;
+            font-weight: 600;
+            transition: 0.2s;
+            display: block;
+            width: 60%;
+
+            &:hover {
+              background-color: $helper-color;
+              transition: 0.2s;
+            }
+          }
+          .more {
+            color: $primary-color;
+            margin: 4rem;
+            font-size: 1.1rem;
+            
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 536px) {
+  #cards {
+    .card-topic {
+      padding-top: 0;
+      h1 {
+        font-size: 5rem;
+        text-align: center;
+        margin-top: -5rem;
+      }
+      p {
+        max-width: 700px;
+        opacity: 0.7;
+        font-size: 1.5rem;
+        text-align: center;
+        padding-left: 3rem;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 526px) {
+  #cards {
+    .card-topic {
+     
+      p {
+        max-width: 800px;
+        opacity: 0.7;
+        font-size: 1.5rem;
+        text-align: center;
+        padding-left: 1rem;
+      }
+    }
+    .card-title {
+      padding: 1rem 0 2rem 0;
+      ul {
+        display: flex;
+        padding: 0;
+  
+        li {
+          padding-right: 1rem;
+  
+          &:first-child {
+            a {
+              background-color: $secondary-color;
+              color: white;
+            }
+          }
+          a {
+            padding: 0.5rem 1.5rem 0.6rem;
+            background-color: #e8ecf1;
+            color: $primary-color;
+            border-radius: 2.5rem;
+          }
+        }
+      }
+    }
+    .bg-popular {
+      margin-left: 1rem;
+      background-color: #f9fafb;
+      display: flex;
+      justify-content: center;
+      
+      border-radius: 1rem;
+      border: 1px solid #eaeaea;
+  
+      a {
+        img {
+          max-width: 100%;
+        }
+      }
+      .cashback {
+        
+        .image {
+          color: #ff0023;
+          font-weight: 600;
+          font-size: 1.05rem;
+          margin-top: -3.5rem;
+          margin-bottom: 2rem;
+        }
+  
+        .bircart {
+          h1 {
+            padding-bottom: 2rem;
+            font-size: 2rem;
+          }
+          .campaing {
+            ul {
+              display: flex;
+               margin-right: 4rem;
+              li {
+             
+  
+                span {
+                  display: block;
+                  font-size: 1.2rem;
+                  padding-bottom: 0.5rem;
+                }
+              }
+            }
+          }
+          .cashback-button {
+            padding-top: 3rem;
+            margin-left: -10rem;
+             
+            .order {
+              
+              background-color: $secondary-color;
+              color: white;
+              font-size: 1.2rem;
+              border-radius: 0.7rem;
+              font-weight: 600;
+              transition: 0.2s;
+              display: block;
+             width: 80%;
+             text-align: center;
+  
+              &:hover {
+                background-color: $helper-color;
+                transition: 0.2s;
+              }
+            }
+            .more {
+              color: $primary-color;
+              margin: 5rem;
+              font-size: 1.1rem;
+              
+            }
+          }
+        }
+      }
+    }
+  }
+  }
+@media only screen and (max-width: 520px) {
+  #cards {
+    .card-topic {
+     
+      p {
+        max-width: 800px;
+        opacity: 0.7;
+        font-size: 1.5rem;
+        text-align: center;
+        padding-left: 2rem;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 510px) {
+  #cards {
+    .card-topic {
+     
+      p {
+        max-width: 800px;
+        opacity: 0.7;
+        font-size: 1.5rem;
+        text-align: center;
+        padding-left: 1rem;
+      }
+    }
+    .card-title {
+      padding: 1rem 0 2rem 0;
+      ul {
+        display: flex;
+        padding: 0;
+  
+        li {
+          padding-right: 1rem;
+  
+          &:first-child {
+            a {
+              background-color: $secondary-color;
+              color: white;
+            }
+          }
+          a {
+            padding: 0.5rem 1.5rem 0.6rem;
+            background-color: #e8ecf1;
+            color: $primary-color;
+            border-radius: 2.5rem;
+          }
+        }
+      }
+    }
+    .bg-popular {
+      margin-left: 0;
+      background-color: #f9fafb;
+      display: flex;
+      justify-content: center;
+      
+      border-radius: 1rem;
+      border: 1px solid #eaeaea;
+  
+      a {
+        img {
+          max-width: 100%;
+        }
+      }
+      .cashback {
+        
+        .image {
+          color: #ff0023;
+          font-weight: 600;
+          font-size: 1.05rem;
+          margin-top: -3.5rem;
+          margin-bottom: 2rem;
+        }
+  
+        .bircart {
+          h1 {
+            padding-bottom: 2rem;
+            font-size: 2rem;
+          }
+          .campaing {
+            ul {
+              display: flex;
+               margin-right: 4rem;
+              li {
+             
+  
+                span {
+                  display: block;
+                  font-size: 1.2rem;
+                  padding-bottom: 0.5rem;
+                }
+              }
+            }
+          }
+          .cashback-button {
+            padding-top: 3rem;
+            margin-left: -10rem;
+             
+            .order {
+              
+              background-color: $secondary-color;
+              color: white;
+              font-size: 1.2rem;
+              border-radius: 0.7rem;
+              font-weight: 600;
+              transition: 0.2s;
+              display: block;
+             width: 80%;
+             text-align: center;
+  
+              &:hover {
+                background-color: $helper-color;
+                transition: 0.2s;
+              }
+            }
+            .more {
+              color: $primary-color;
+              margin: 5rem;
+              font-size: 1.1rem;
+              
+            }
+          }
+        }
+      }
+    }
+  }
+  }
+
+
+@media only screen and (max-width: 474px) {
+  #cards {
+    .card-topic {
+      padding-top: 0;
+      text-align: center;
+      h1 {
+        font-size: 5rem;
+        text-align: center;
+        margin-top: -6rem;
+      }
+      p {
+       
+        opacity: 0.7;
+        font-size: 1.5rem;
+        text-align: center;
+        
+      }
+    }
+  }
+}
+@media only screen and (max-width: 460px) {
+  #cards {
+    .card-topic {
+    
+      text-align: center;
+      h1 {
+        font-size: 5rem;
+        text-align: center;
+        align-items: center;
+        margin-top: -6rem;
+      }
+      p {
+       
+        opacity: 0.7;
+        font-size: 1.5rem;
+        text-align: center;
+        align-items: center;
+        
+      }
+    }
+    .card-title {
+      padding: 1rem 0 2rem 0;
+      ul {
+        display: flex;
+        padding: 0;
+  
+        li {
+          padding-right: 1rem;
+  
+          &:first-child {
+            a {
+              background-color: $secondary-color;
+              color: white;
+            }
+          }
+          a {
+            padding: 0.5rem 1.5rem 0.6rem;
+            background-color: #e8ecf1;
+            color: $primary-color;
+            border-radius: 2.5rem;
+          }
+        }
+      }
+    }
+    .bg-popular {
+      margin-left: 0;
+      background-color: #f9fafb;
+      display: flex;
+      justify-content: center;
+      
+      border-radius: 1rem;
+      border: 1px solid #eaeaea;
+  
+      a {
+        img {
+          max-width: 100%;
+        }
+      }
+      .cashback {
+        
+        .image {
+          color: #ff0023;
+          font-weight: 600;
+          font-size: 1.05rem;
+          margin-top: -3.5rem;
+          margin-bottom: 2rem;
+        }
+  
+        .bircart {
+          h1 {
+            padding-bottom: 2rem;
+            font-size: 2rem;
+          }
+          .campaing {
+            ul {
+              display: flex;
+               margin-right: 4rem;
+              li {
+             
+  
+                span {
+                  display: block;
+                  font-size: 1.2rem;
+                  padding-bottom: 0.5rem;
+                }
+              }
+            }
+          }
+          .cashback-button {
+            padding-top: 3rem;
+            margin-left: -10rem;
+             
+            .order {
+              
+              background-color: $secondary-color;
+              color: white;
+              font-size: 1.2rem;
+              border-radius: 0.7rem;
+              font-weight: 600;
+              transition: 0.2s;
+              display: block;
+             width: 80%;
+             text-align: center;
+  
+              &:hover {
+                background-color: $helper-color;
+                transition: 0.2s;
+              }
+            }
+            .more {
+              color: $primary-color;
+              margin: 5rem;
+              font-size: 1.1rem;
+              
+            }
+          }
+        }
+      }
+    }
+  }
+  }
+  @media only screen and (max-width: 436px) {
+    #cards {
+      .card-topic {
+      
+        text-align: center;
+        h1 {
+          font-size: 5rem;
+          text-align: center;
+          align-items: center;
+          margin-top: -6rem;
+        }
+        p {
+         
+          opacity: 0.7;
+          font-size: 1.5rem;
+          text-align: center;
+          align-items: center;
+          
+        }
+      }
+      .card-title {
+        padding: 1rem 0 2rem 0;
+        ul {
+          display: flex;
+          padding: 0;
+    
+          li {
+            padding-right: 1rem;
+    
+            &:first-child {
+              a {
+                background-color: $secondary-color;
+                color: white;
+              }
+            }
+            a {
+              padding: 0.5rem 1.5rem 0.6rem;
+              background-color: #e8ecf1;
+              color: $primary-color;
+              border-radius: 2.5rem;
+            }
+          }
+        }
+      }
+      .bg-popular {
+        margin-left: 0;
+        background-color: #f9fafb;
+        display: flex;
+        justify-content: center;
+        
+        border-radius: 1rem;
+        border: 1px solid #eaeaea;
+    
+        a {
+          img {
+            max-width: 200%;
+          }
+        }
+        .cashback {
+          
+          .image {
+            color: #ff0023;
+            font-weight: 600;
+            font-size: 1.05rem;
+            margin-top: -3.5rem;
+            margin-bottom: 2rem;
+          }
+    
+          .bircart {
+            h1 {
+              padding-bottom: 2rem;
+              font-size: 2rem;
+            }
+            .campaing {
+              ul {
+                display: flex;
+                 margin-right: 4rem;
+                li {
+               
+    
+                  span {
+                    display: block;
+                    font-size: 1.2rem;
+                    padding-bottom: 0.5rem;
+                  }
+                }
+              }
+            }
+            .cashback-button {
+              padding-top: 3rem;
+              margin-left: -7rem;
+              
+               
+              .order {
+                
+                background-color: $secondary-color;
+                color: white;
+                font-size: 1.2rem;
+                border-radius: 0.7rem;
+                font-weight: 600;
+                transition: 0.2s;
+                display: block;
+               width: 85%;
+               text-align: center;
+               margin-left: 0;
+    
+                &:hover {
+                  background-color: $helper-color;
+                  transition: 0.2s;
+                }
+              }
+              .more {
+                color: $primary-color;
+                margin: 5rem;
+                font-size: 1.1rem;
+                
+              }
+            }
+          }
+        }
+      }
+    }
+    }
+    @media only screen and (max-width: 396px) {
+      #cards {
+        .card-topic {
+        
+          text-align: center;
+          h1 {
+            font-size: 5rem;
+            text-align: center;
+            align-items: center;
+            margin-top: -6rem;
+          }
+          p {
+           
+            opacity: 0.7;
+            font-size: 1.5rem;
+            text-align: center;
+            align-items: center;
+            
+          }
+        }
+        .card-title {
+          padding: 1rem 0 2rem 0;
+          ul {
+            display: flex;
+            padding: 0;
+      
+            li {
+              padding-right: 1rem;
+      
+              &:first-child {
+                a {
+                  background-color: $secondary-color;
+                  color: white;
+                }
+              }
+              a {
+                padding: 0.5rem 1.5rem 0.6rem;
+                background-color: #e8ecf1;
+                color: $primary-color;
+                border-radius: 2.5rem;
+              }
+            }
+          }
+        }
+        .bg-popular {
+          margin-left: 0;
+          background-color: #f9fafb;
+          display: flex;
+          justify-content: center;
+          
+          border-radius: 1rem;
+          border: 1px solid #eaeaea;
+      
+          a {
+            img {
+              max-width: 900%;
+            }
+          }
+          .cashback {
+            
+            .image {
+              color: #ff0023;
+              font-weight: 600;
+              font-size: 1.05rem;
+              margin-top: -3.5rem;
+              margin-bottom: 2rem;
+            }
+      
+            .bircart {
+              h1 {
+                padding-bottom: 2rem;
+                font-size: 2rem;
+              }
+              .campaing {
+                ul {
+                  display: flex;
+                   margin-right: 4rem;
+                  li {
+                 
+      
+                    span {
+                      display: block;
+                      font-size: 1.2rem;
+                      padding-bottom: 0.5rem;
+                    }
+                  }
+                }
+              }
+              .cashback-button {
+                padding-top: 3rem;
+                margin-left: -6rem;
+                
+                 
+                .order {
+                  
+                  background-color: $secondary-color;
+                  color: white;
+                  font-size: 1.2rem;
+                  border-radius: 0.7rem;
+                  font-weight: 600;
+                  transition: 0.2s;
+                
+                 width: 85%;
+                 text-align: center;
+                 margin-left: 0;
+      
+                  &:hover {
+                    background-color: $helper-color;
+                    transition: 0.2s;
+                  }
+                }
+                .more {
+                  color: $primary-color;
+                  margin: 5rem;
+                  font-size: 1.1rem;
+                  
+                }
+              }
+            }
+          }
+        }
+      }
+      }

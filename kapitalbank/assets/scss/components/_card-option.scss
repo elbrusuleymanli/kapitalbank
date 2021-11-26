@@ -1,0 +1,32 @@
+#card-option {
+    margin-top: 2rem;
+   
+    
+  .options {
+    background-color: #f9fafb;
+   
+    .card-row {
+        
+      ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 0 2rem 0;
+        margin-bottom: 0;
+        li {
+            font-size: .9rem; 
+            text-align: center;
+          &:first-child {
+            a {
+              color: $helper-color;
+              font-weight: 500;
+            }
+          }
+          a{
+              color: $primary-color;
+          }
+        }
+      }
+    }
+  }
+}
